@@ -62,10 +62,10 @@
             </objects>
             <point key="canvasLocation" x="908" y="319"/>
         </scene>
-        <!--View Controller-->
+        <!--SearchVC-->
         <scene sceneID="yJZ-IE-wKN">
             <objects>
-                <viewController id="UCO-1k-kfu" sceneMemberID="viewController">
+                <viewController id="UCO-1k-kfu" userLabel="SearchVC" customClass="TabBar" customModule="RedditClone" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="9nY-iH-eS7">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -97,7 +97,7 @@
                         <color key="backgroundColor" red="0.92549019607843142" green="0.92549019607843142" blue="0.92549019607843142" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="7qp-X1-ee5"/>
                     </view>
-                    <tabBarItem key="tabBarItem" image="chatTabbarIcon" selectedImage="chatTabbarIcon" id="EcA-Mh-QDW">
+                    <tabBarItem key="tabBarItem" image="chatTabbarIcon" selectedImage="chatTabbarIcon" id="EcA-Mh-QDW" customClass="Tabbar">
                         <inset key="imageInsets" minX="0.0" minY="0.0" maxX="0.0" maxY="-12"/>
                     </tabBarItem>
                 </viewController>
